@@ -2,10 +2,6 @@
 We created novel segmentation networks with 3D-OOCS on top of benchmark U-Net models. To provide an objective comparison between the established CNNs and ours, we created a pipeline that was used for training and testing all models. The repository consists of deep learning models that perform semantic segmentation of the prostate from MR images.
 
 <p align="center">
-  <img src="images/unet.png" alt="drawing" width="600"/>
-</p>
-
-<p align="center">
   <img src="images/oocs_in_encoder.png" alt="drawing" width="500"/>
 </p>
 
@@ -79,10 +75,6 @@ pip install -r Requirements.txt
     |       ...
 ``` 
 * When the sample size is small, like in the case of [Medical Segmentation Decathlon - Prostate Segmentation](http://medicaldecathlon.com/#tasks) dataset, it is better to perform cross-validation such as k-fold. The framework performs 5-fold validation.
-
-<p align="center">
-  <img src="images/cross_validation.png" alt="drawing" width="500"/>
-</p>
 
 * In such scenarios, the [dataloader.py](dataloader.py) will handle the train-test split based on the `fold` options. 
 * We give you two options for the data, either 
