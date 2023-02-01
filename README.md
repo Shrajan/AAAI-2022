@@ -1,3 +1,5 @@
+Latest version is available at the [IB_U_Nets](https://github.com/Shrajan/IB_U_Nets) respository. This is not maintained anymore.
+
 # 3D-OOCS: LEARNING PROSTATE SEGMENTATION WITH INDUCTIVE BIAS
 We created novel segmentation networks with 3D-OOCS on top of benchmark U-Net models. To provide an objective comparison between the established CNNs and ours, we created a pipeline that was used for training and testing all models. The repository consists of deep learning models that perform semantic segmentation of the prostate from MR images.
 
