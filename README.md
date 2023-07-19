@@ -237,7 +237,17 @@ python test.py --data_root data/noisy_blur_data --model_name unet --trained_mode
 | OOCS V-Net (k3) | 0.791 +/- 0.13 | 26.488 +/- 17.68 |
 | OOCS V-Net (k5) | 0.825 +/- 0.08 | 21.471 +/- 10.01 |
 
-
 <p align="center">
   <img src="images/predictions.png" alt="drawing" width="700"/>
 </p>
+
+## Citation ##
+
+```bibtex
+@article{bhandary20213d,
+  title={3D-OOCS: Learning Prostate Segmentation with Inductive Bias},
+  author={Bhandary, Shrajan and Babaiee, Zahra and Kostyszyn, Dejan and Fechter, Tobias and Zamboglou, Constantinos and Grosu, Anca-Ligia and Grosu, Radu},
+  journal={arXiv preprint arXiv:2110.15664},
+  year={2021}
+}
+```
